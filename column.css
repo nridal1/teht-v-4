@@ -1,0 +1,73 @@
+
+body {
+    background-color: #f3f3f4;
+}
+
+#column1 h3 {
+    color: #34312d;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#column2 h3 {
+    color: #34312d;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#ima {
+    width: 300px; 
+    height: auto;
+    
+}
+#ima1 {
+    width: 300px; 
+    height: auto;
+    
+}
+.jumbotron {
+    background-color: #34312d;
+    color: #f3f3f4;
+}
+#move {
+    width: 100px;
+    height: 100px;
+    background: #d9c5b2;
+    position: relative;
+    animation: myfirst 5s 2;
+    animation-direction: alternate;
+  }
+  
+  @keyframes myfirst {
+    0%   {background: #d9c5b2; left: 100px; top: 0px;}
+    25%  {background: #7e7f83; left: 800px; top: 0px;}
+    50%  {background: #d9c5b2; left: 800px; top: 200px;}
+    75%  {background: #34312d; left: 100px; top: 200px;}
+    100% {background: #d9c5b2; left: 100px; top: 0px;}
+}
+#text {
+    text-align: center;
+    text-shadow: #34312d;
+}
+@keyframes text {
+
+}
+
+#otsikko1 {
+    animation: mymove 5s infinite;
+    color: #d9c5b2;
+}
+
+    @keyframes mymove {
+        50% {text-indent: 150px;}
+      }
+      #otsikko2 {
+        animation: mymove 5s infinite;
+        color: #d9c5b2;
+    }
+    
+        @keyframes mymove {
+            50% {text-indent: 150px;}
+          }
